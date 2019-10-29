@@ -206,26 +206,26 @@ public function emprende_amazonas(){
     return $aragua->result();
  }
 public function listar_emprende(){
-$this->db->select(" mas_caracas.id_mas_caracas, 
-  mas_caracas.cedula, 
-  mas_caracas.nombres, 
-  mas_caracas.apellidos, 
-  mas_caracas.telefono, 
-  mas_caracas.celular, 
-  mas_caracas.email, 
-  mas_caracas.parroquia, 
-  mas_caracas.eje, 
-  mas_caracas.sector, 
-  mas_caracas.movimiento, 
-  mas_caracas.espacio, 
-  mas_caracas.luz, 
-  mas_caracas.internet, 
-  mas_caracas.agua, 
-  mas_caracas.tipo_proyecto, 
+$this->db->select(" micro_productiva.id_micro_productiva, 
+  micro_productiva.cedula, 
+  micro_productiva.nombres, 
+  micro_productiva.apellidos, 
+  micro_productiva.telefono, 
+  micro_productiva.celular, 
+  micro_productiva.email, 
+  micro_productiva.parroquia, 
+  micro_productiva.eje, 
+  micro_productiva.sector, 
+  micro_productiva.movimiento, 
+  micro_productiva.espacio, 
+  micro_productiva.luz, 
+  micro_productiva.internet, 
+  micro_productiva.agua, 
+  micro_productiva.tipo_proyecto, 
   parroquias.parroquia");
-  $this->db->from('public.mas_caracas, 
+  $this->db->from('public.micro_productiva, 
   public.parroquias');
-  $this->db->where( " mas_caracas.parroquia = parroquias.id_parroquia");
+  $this->db->where( " micro_productiva.parroquia = parroquias.id_parroquia");
   $listado = $this->db->get();
     return $listado->result();
 }

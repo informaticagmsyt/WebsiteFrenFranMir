@@ -133,7 +133,7 @@
                         <div class="col-md-4 multi-horizontal" >
                             <div class="form-group">
                                 <label class="form-control-label mbr-fonts-style display-7" for="name-form1-t">Estado</label>
-                                <select class="form-control" ng-change="llenarMunicipios(estadosS.id)" ng-options="estado.name for estado in estados" ng-model="estadosS" required name="estado">
+                                <select class="form-control" ng-change="llenarMunicipios(estados.id)" ng-options="estado.name for estado in estados" ng-model="estados"  name="estado">
                                   <option value="">- Seleccione -</option>
                                 </select>
                             </div>
@@ -141,7 +141,7 @@
                         <div class="col-md-4 multi-horizontal" >
                             <div class="form-group">
                                 <label class="form-control-label mbr-fonts-style display-7" for="email-form1-t">Municipio</label>
-                                <select class="form-control" ng-change="llenarParroquias(municipioS.id)" ng-options="municipio.name for municipio in municipios" ng-model="municipioS" required ng-disabled="!estadosS" name="municipio">
+                                <select class="form-control" ng-change="llenarParroquias(municipioS.id)" ng-options="municipio.name for municipio in municipios" ng-model="municipioS"  ng-disabled="!estadosS" name="municipio">
                                     <option value="">- Seleccione -</option>
                                 </select>
                             </div>
@@ -149,7 +149,7 @@
                         <div class="col-md-4 multi-horizontal" data-for="phone">
                             <div class="form-group">
                                 <label class="form-control-label mbr-fonts-style display-7" for="phone-form1-t">Parroquia</label>
-                                <select class="form-control" ng-options="parroquias as parroquia.name for parroquia in parroquias  track by  parroquia.id" ng-model="persona.parroquiasS" name="parroquia" required ng-disabled="!estadosS || !municipioS" name="parroquia">
+                                <select class="form-control" ng-options="parroquias as parroquia.name for parroquia in parroquias  track by  parroquia.id" ng-model="persona.parroquiasS" name="parroquia"  ng-disabled="!estadosS || !municipioS" name="parroquia">
                                   <option value="">- Seleccione -</option>
                                 </select>
 
