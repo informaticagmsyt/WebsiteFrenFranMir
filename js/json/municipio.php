@@ -7,12 +7,14 @@ ini_set("display_errors", 1);
 
 $id=$_GET['id'];
 
+$estado="SELECT * FROM municipios WHERE id_estado = '$id'";
 
-$estado="SELECT * FROM `municipio` WHERE `estado_id` = '$id'";
-$estados=mysqli_query($conexion,$estado);
 
-while($estadosL = mysqli_fetch_array($estados)) {
-$res []= array('id' => $estadosL["id"], 'name'=> $estadosL["nombre_municipio"]);
+
+$estados = pg_query($conexion,$estado);
+
+while($estadosL = pg_fetch_array($estados)) {
+$res []= array('id' => $estadosL["id_municipio"], 'name'=> $estadosL["municipio"]);
 }
  //var_dump($res);
 echo json_encode($res);

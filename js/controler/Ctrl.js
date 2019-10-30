@@ -1,5 +1,5 @@
 var app = angular.module('afiliacion', ['720kb.datepicker']);
-var baseUrl = "http://caveintec.org/servicio/js/json/";
+var baseUrl = "js/json/";
 var d = new Date();
 app.controller('registro', function($scope, $http) {
 
