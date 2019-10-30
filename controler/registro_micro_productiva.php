@@ -28,7 +28,7 @@ $esta=pg_query($conexion,$sql1);
 	$fila=pg_fetch_array($esta);
 
 	if ($fila['cedula']==0) {
-$sql="INSERT into mas_caracas (cedula,nombres,apellidos,telefono,celular,email,parroquia,eje,sector,movimiento,espacio,luz,internet,agua,tipo_proyecto) VALUES ('$cedula','$nombre','$apellido','$telefono','$celular','$email','$parroquia','$eje','$sector','$moviemiento','$espacio','$electricidad','$internet','$agua','$tipo_proyecto')";
+$sql="INSERT into micro_productiva (cedula,nombres,apellidos,telefono,celular,email,parroquia,eje,sector,movimiento,espacio,luz,internet,agua,tipo_proyecto) VALUES ('$cedula','$nombre','$apellido','$telefono','$celular','$email','$parroquia','$eje','$sector','$moviemiento','$espacio','$electricidad','$internet','$agua','$tipo_proyecto')";
 $estados=pg_query($conexion,$sql);
 	if ($estados) {
 		/*$mail = new PHPMailer(true);
@@ -64,7 +64,7 @@ $estados=pg_query($conexion,$sql);
 
 }else{
 		echo '  <script type="text/javascript">
-			     		 alert("Usted ya se Encuentra Registrado en el Plan Mas Caracas");
+			     		 alert("Usted ya se Encuentra Registrado en el Plan Micro Mision Productiva");
 			        	 document.location.href ="../index.html";
 			        </script>';
 	}
