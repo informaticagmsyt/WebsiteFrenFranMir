@@ -5,7 +5,7 @@
         <aside id="leftsidebar" class="sidebar">
             <div class="menu">
                 <ul class="list">
-                    <li class="header">MENU DE NAVEGACION</li>
+                    <li class="header">MENU DE NAVEGACIÓN</li>
                      <li>
                         <a>   
                             <span style="color: navy;">Bienvenido -> <?php echo  $this->session->userdata('n_usuario');?></span>
@@ -18,13 +18,14 @@
                         </a>
                     </li>
                     <?php if ($this->session->userdata('nivel_usuario') =='2' || $this->session->userdata('nivel_usuario')=='3' || $this->session->userdata('nivel_usuario')=='4'): ?>
-                             <li >
+                             
+                            <li >
                                 <a href="<?= base_url('index.php/c_emprende');?>">
                                       <i class="material-icons">assignment</i>
-                                    <span>Listado Mas Caracas</span>
+                                    <span>Micro Misión Productiva</span>
                                 </a>
                             </li>
-                              <li >
+                              <!--li >
                                 <a href="<?= base_url('index.php/c_agroproductivo');?>">
                                       <i class="material-icons">assignment</i>
                                     <span>Listado Siembra Caracas</span>
@@ -35,7 +36,7 @@
                                       <i class="material-icons">assignment</i>
                                     <span>Listado Unidad Patria</span>
                                 </a>
-                            </li>
+                            </li-->
                     <?php endif ?>
 
                     <?php if ($this->session->userdata('nivel_usuario') =='2' || $this->session->userdata('nivel_usuario')=='3' || $this->session->userdata('nivel_usuario')=='4' ) : ?>
@@ -90,10 +91,10 @@
             </div>
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2019 <a href="#">Gabinete Economico de Caracas</a>.
+                    &copy; 2019 Desarrollado por <a href="https://www.linkedin.com/in/alonsoalvarino/"> Alonso Alvarino</a>.
                 </div>
                 <div class="version">
-                    <b>Version: </b> 0.2
+                    <b>Version: </b> 1.0
                 </div>
             </div>
         </aside>
