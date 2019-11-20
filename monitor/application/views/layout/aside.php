@@ -17,6 +17,12 @@
                             <span>Inicio</span>
                         </a>
                     </li>
+                    <li >
+                        <a href="<?= base_url('index.php/c_principal');?>">
+                              <i class="material-icons">view_quilt</i>
+                            <span>Tablero</span>
+                        </a>
+                    </li>
                     <?php if ($this->session->userdata('nivel_usuario') =='2' || $this->session->userdata('nivel_usuario')=='3' || $this->session->userdata('nivel_usuario')=='4'): ?>
                              
                             <li >
@@ -42,7 +48,7 @@
                     <?php if ($this->session->userdata('nivel_usuario') =='2' || $this->session->userdata('nivel_usuario')=='3' || $this->session->userdata('nivel_usuario')=='4' ) : ?>
                         <li>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">widgets</i>
+                            <i class="material-icons">settings_applications</i>
                             <span>Configuracion</span>
                         </a>
                         <ul class="ml-menu">
