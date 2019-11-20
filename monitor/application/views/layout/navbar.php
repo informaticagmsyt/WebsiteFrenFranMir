@@ -1,7 +1,7 @@
 <?defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<nav class="navbar #F44336
-bg-red">
+<nav class="navbar #009688
+bg-teal">
         <div class="container-fluid">
             <div class="navbar-header  blue darken-1">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed blue darken-1" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
