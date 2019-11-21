@@ -29,7 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="card">
                         <div class="header">
                             <h2>
-                                Listado de Personas Registradas en el Programa Agropoductivo
+                                Listado de Personas Registradas en la Micro Misión Productiva
                             </h2>
                             <hr>
 
@@ -102,7 +102,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
 
                             </form>
-                            <ul class="header-dropdown m-r--5">
+                            <!--ul class="header-dropdown m-r--5">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
@@ -113,7 +113,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                         <li><a href="javascript:void(0);">Something else here</a></li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul-->
                         </div>
                         <div class="body">
                             <div class="table-responsive">
