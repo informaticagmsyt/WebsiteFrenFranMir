@@ -31,6 +31,7 @@ $monagas    = count($monagas);
 $esparta    = count($esparta);
 $portuguesa = count($portuguesa);
 $sucre    = count($sucre);
+
 $tachira  = count($tachira);
 $trujillo = count($trujillo);
 $vargas   = count($vargas);
@@ -269,7 +270,7 @@ $agro_distrito      = count($agro_distrito );
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
-                <h2>DASHBOARD</h2>
+                <h2>TABLERO</h2>
             </div>
             <!-- Widgets -->
             <div class="row clearfix">
@@ -343,6 +344,77 @@ $agro_distrito      = count($agro_distrito );
                 </div>
             </div>
   
+            <hr>
+
+<form action="" method="get">
+<div class="row">
+
+
+    <div class="col-md-2">
+        <div class="block-header">
+            <br>
+            <h2><center>BUSCAR POR FECHA</center></h2>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="form-group form-line">
+            <label> Desde</label>
+
+
+
+            <div class="input-group date form_date col-md-8" data-date="" data-date-format="dd-mm-yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                <span class="input-group-addon">
+                    <i class="material-icons">date_range</i>
+                </span>
+
+                <input class="form-control" size="5" type="text" id="desde" name="desde" value="<?php 	if(isset($_REQUEST['desde'] )) echo $_REQUEST['desde']  ?>">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span><i class="far fa-trash-alt"></i></span>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span><i class="far fa-calendar-alt"></i></span>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="form-group form-line">
+            <label> Hasta</label>
+
+
+
+            <div class="input-group date form_date col-md-8" data-date="" data-date-format="dd-mm-yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                <span class="input-group-addon">
+                    <i class="material-icons">date_range</i>
+                </span>
+
+                <input class="form-control" size="5" type="text" id="desde" name="hasta" value="<?php 	if(isset($_REQUEST['hasta'] )) echo $_REQUEST['hasta']  ?>">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span><i class="far fa-trash-alt"></i></span>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span><i class="far fa-calendar-alt"></i></span>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <input type="hidden" name="id" value="1">
+
+    <div class="col-md-3">
+        <div class="input-group">
+
+            <br>
+            <button type="submit" class="btn-sm btn-primary "> Buscar</i></button>
+
+        </div>
+
+    </div>
+</div>
+
+</form>
+
+<hr>
 
             <div class="row clearfix">
                 <!-- Task Info -->
@@ -1235,7 +1307,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $monagas?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $monagas;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1294,7 +1366,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $esparta?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $esparta;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1353,7 +1425,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $portuguesa?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $portuguesa;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1412,7 +1484,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $sucre?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $sucre;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1471,7 +1543,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $sucre?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $tachira;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1488,28 +1560,28 @@ $agro_distrito      = count($agro_distrito );
                                     <tbody>
                                         <tr>
                                             <td>Gestion Productiva</td>
-                                            <td> <?php  echo $agro_sucre; ?></td>
+                                            <td> <?php  echo $agro_tachira; ?></td>
                                         </tr>
                                         <tr>
                                             <td>Joven Emprendedor</td>
-                                            <td><span ><?php  echo $emprende_sucre; ?></span></td>
+                                            <td><span ><?php  echo $emprende_tachira; ?></span></td>
                                         </tr>
                                         <tr>
                                             <td>Plan Asesorate</td>
-                                            <td><span ><?php  echo $asesorate_sucre; ?></span></td>
+                                            <td><span ><?php  echo $asesorate_tachira; ?></span></td>
                                             <td>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Proyecto Ingenio</td>
-                                            <td><span ><?php  echo $ingenio_sucre; ?></span></td>
+                                            <td><span ><?php  echo $ingenio_tachira; ?></span></td>
                                             <td>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Brigadas Tecnicas</td>
                                             <td>
-                                                <span ><?php  echo $brigadas_sucre; ?></span>
+                                                <span ><?php  echo $brigadas_tachira; ?></span>
                                             </td>
                                             <td>
                                             </td>
@@ -1530,7 +1602,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $trujillo?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $trujillo;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1589,7 +1661,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $vargas?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $vargas;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1648,7 +1720,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $yaracuy?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $yaracuy;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1707,7 +1779,7 @@ $agro_distrito      = count($agro_distrito );
                                 <li class="dropdown">
 
                                     <ul class=" pull-right">
-                                        <li > <b><?php echo $zulia?></b> <small > Registrados </small>    </li>
+                                        <li > <b><?php echo $zulia;?></b> <small > Registrados </small>    </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -1761,3 +1833,27 @@ $agro_distrito      = count($agro_distrito );
             </div>
         </div>
     </section>
+
+    <script src="<?= base_url() ?>public/plugins/jquery/jquery.min.js"></script>
+
+
+    <script>
+      
+
+      $(document).ready(function() {
+
+          $('.form_date').datetimepicker({
+              language: 'es',
+              weekStart: 1,
+              todayBtn: 1,
+              autoclose: 1,
+              todayHighlight: 1,
+              startView: 2,
+              minView: 2,
+              forceParse: 0
+          });
+
+      });
+
+      </script>   
+

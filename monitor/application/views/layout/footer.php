@@ -1,4 +1,9 @@
-    <script src="<?= base_url()?>public/plugins/jquery/jquery.min.js"></script>
+
+ <script>
+ var urlBase='<?= base_url()?>';
+ 
+ </script>
+ <script src="<?= base_url()?>public/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core Js -->
     <script src="<?= base_url()?>public/plugins/bootstrap/js/bootstrap.js"></script>
     <!-- Waves Effect Plugin Js -->
@@ -13,7 +18,6 @@
     <!-- Bootstrap Core Js -->
     <script src="<?= base_url()?>public/plugins/bootstrap/js/bootstrap.js"></script>
     <!-- Select Plugin Js -->
-    <script src="<?= base_url()?>public/plugins/bootstrap-select/js/bootstrap-select.js"></script>
     <!-- Slimscroll Plugin Js -->
     <script src="<?= base_url()?>public/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
     <!-- Waves Effect Plugin Js -->
@@ -42,8 +46,18 @@
     <script src="<?= base_url()?>public/plugins/jquery-spinner/js/jquery.spinner.js"></script>
     <!-- Bootstrap Tags Input Plugin Js -->
     <script src="<?= base_url()?>public/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+    <script src="<?= base_url()?>public/js/bootstrap-datetimepicker.js"></script>
+    <script src="<?= base_url()?>public/js/bootstrap-datetimepicker.es.js"></script>
+
+  
     <!-- noUISlider Plugin Js -->
     <script src="<?= base_url()?>public/plugins/nouislider/nouislider.js"></script>
-  <!------------------------------------------------------------------------------------------------------>
+    <script src="<?= base_url()?>public/js/edit.js"></script>
+    <script src="<?= base_url()?>public/js/estadoMunParroquia.js"></script>
+   
+   
+   
 
+  
+  <!------------------------------------------------------------------------------------------------------>
 </html>

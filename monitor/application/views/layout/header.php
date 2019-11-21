@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Frente Francisco de Miranda</title>
+    <title>Gran Mision Saber y Trabajo</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Google Fonts -->
@@ -40,4 +40,7 @@
     <link href="<?= base_url()?>public/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
     <!-- noUISlider Css -->
     <link href="<?= base_url()?>public/plugins/nouislider/nouislider.min.css" rel="stylesheet" />    
+
+    <link href="<?= base_url()?>public/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
 </head>

@@ -1,5 +1,5 @@
-<body class="#009688
-bg-teal">
+<body class="#03A9F4
+bg-light-blue">
 	
 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	<section>
@@ -11,13 +11,13 @@ bg-teal">
 						<body >
 						    <div class="login-box">
 						        <div class="logo">
-						            <h1  class="text-center " style="font-family: 'Satisfy', cursive;">  Bienvenidos al Sistema de Monitoreo de Personas Registradas en la Micro Misión Productiva. </h1>
+						            <h1  class="text-center " style="font-family: 'Satisfy', cursive;">  Bienvenidos al Sistema de Monitoreo de Registrados en los Planes Socio-Productivos de la Gran Mision Saber y Trabajo. </h1>
 						        </div>
 						        <br><br><br>
 						        <div class="card">
 						            <div class="body">
 						                <form id="sign_in" method="POST" action="<?php echo base_url();?>index.php/c_login/ingresar">
-						                    <div class="msg" style="font-family: 'Leckerli One', cursive;"> <h3 class="text-center">Inicie sesión en el sistema </h3></div>
+						                    <div class="msg" style="font-family: 'Leckerli One', cursive;"> <h3 class="text-center">Inicie sesion en el sistema </h3></div>
 						                    <br>
 						                    <hr>
 						                    <div class="input-group">
