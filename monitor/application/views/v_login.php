@@ -1,5 +1,5 @@
-<body class="#009688
-bg-teal">
+<body class="#607D8B
+bg-blue-grey">
 	
 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	<section>
@@ -11,7 +11,7 @@ bg-teal">
 						<body >
 						    <div class="login-box">
 						        <div class="logo">
-						            <h1  class="text-center " style="font-family: 'Satisfy', cursive;">  Bienvenidos al Sistema de Monitoreo de Personas Registradas en la Micro Misión Productiva. </h1>
+						            <h1  class="text-center " style="font-family: 'Satisfy', cursive;">  Bienvenidos al Sistema de Monitoreo de Registrados en el Frente Francisco de Miranda. </h1>
 						        </div>
 						        <br><br><br>
 						        <div class="card">

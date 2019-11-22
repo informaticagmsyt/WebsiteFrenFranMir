@@ -4,7 +4,7 @@
 	$port = "5432";
 	$user = "postgres";
 	$pass = "aed09f75aa";
-	$dbname = "micromisionproductiva";
+	$dbname = "ffm";
 
 	$conexion = pg_connect("host=$host port=$port user=$user password=$pass dbname=$dbname");
 	
