@@ -32,9 +32,6 @@ $smtpHost = "mail.tudominio.com";  // Dominio alternativo brindado en el email d
 $smtpUsuario = "correo@tudominio.com";  // Mi cuenta de correo
 $smtpClave = "123456789";  // Mi contraseña
 
-
-
-
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
