@@ -566,7 +566,7 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #3bbdff;
+  color: #ff0000;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
@@ -2030,7 +2030,7 @@ body {
 .cid-roNYtKtqRq .full-screen .slider-fullscreen-image {
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-position: 77%;
+  background-position: 70%;
   background-size: cover;
 }
 .cid-roNYtKtqRq .full-screen .slider-fullscreen-image.active {
@@ -8460,7 +8460,7 @@ body {
 }
 .cid-roNWH5Munb .nav-link:hover,
 .cid-roNWH5Munb .dropdown-item:hover {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 .cid-rpfPqw8Qoi {
   padding-top: 90px;
@@ -9152,7 +9152,7 @@ body {
 }
 .cid-roNWH5Munb .navbar {
   padding: .5rem 0;
-  background: #004d98;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
@@ -9168,6 +9168,7 @@ body {
   vertical-align: text-bottom;
   position: relative;
   text-decoration: none;
+  color: #000000;
 }
 .cid-roNWH5Munb .nav-item a {
   display: -webkit-flex;
@@ -9555,10 +9556,10 @@ body {
 }
 .cid-roNWH5Munb .nav-link:hover,
 .cid-roNWH5Munb .dropdown-item:hover {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 .cid-roNZcEF63e {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #e3801b;
+  background-color: #ffffff;
 }
