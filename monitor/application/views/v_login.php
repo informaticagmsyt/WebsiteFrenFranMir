@@ -11,7 +11,7 @@ bg-blue-grey">
 						<body >
 						    <div class="login-box">
 						        <div class="logo">
-						            <h1  class="text-center " style="font-family: 'Satisfy', cursive;">  Bienvenidos al Sistema de Monitoreo de Registrados en el Frente Francisco de Miranda. </h1>
+						            <h1  class="text-center " style="font-family: 'Satisfy', cursive;">  Bienvenidos al Sistema de Monitoreo y Alertas Tempranas Micro Misión Productiva Frente Francisco de Miranda. </h1>
 						        </div>
 						        <br><br><br>
 						        <div class="card">
